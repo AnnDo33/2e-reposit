@@ -6,8 +6,10 @@ function App () {
   return (
     <div>
       <PokemonCard />
+      <PokemonList />
     </div>
   );
 }
+
 
 export default App;
