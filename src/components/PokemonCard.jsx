@@ -2,7 +2,6 @@ import React from 'react';
 
 function PokemonCard(props) { 
   console.log(props);
-  
   const { pokemon } = props; 
 
   return (
