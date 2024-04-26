@@ -1,6 +1,10 @@
 import React from 'react';
 
-function PokemonCard({ pokemon }) {  
+function PokemonCard(props) { 
+  console.log(props);
+  
+  const { pokemon } = props; 
+
   return (
     <figure className="pokemonCard"> 
       {pokemon.imgSrc !== undefined ? (
